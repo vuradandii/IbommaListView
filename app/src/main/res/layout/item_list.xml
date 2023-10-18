@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/material_dynamic_secondary0"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_weight="8.5"
+            android:layout_margin="16dp"
+            android:layout_marginStart="16dp"
+            android:background="@android:color/holo_green_light"
+            android:id="@+id/image" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="8.5">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Movie Name"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:id="@+id/moviename"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Year"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:id="@+id/year"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cast"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:id="@+id/cast"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Director"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:id="@+id/director"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp" />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
